@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="Ilustración de alimentos para compartir">
+  <defs><linearGradient id="bg" x2="0" y2="1"><stop stop-color="#f5e4cd"/><stop offset="1" stop-color="#e6eadb"/></linearGradient></defs>
+  <rect width="1200" height="760" fill="url(#bg)"/><circle cx="950" cy="145" r="80" fill="#e8944d" opacity=".7"/><path d="M0 575Q290 470 590 570t610-10v200H0Z" fill="#758c59" opacity=".65"/>
+  <ellipse cx="595" cy="535" rx="390" ry="115" fill="#fffaf1" stroke="#633a27" stroke-width="14"/><path d="M260 510q30-230 330-235t345 235" fill="#f1c27b" stroke="#633a27" stroke-width="14"/>
+  <g stroke="#633a27" stroke-width="12"><circle cx="435" cy="400" r="84" fill="#bd6542"/><path d="M420 307q-8-75 45-90" fill="none" stroke-linecap="round"/><circle cx="650" cy="370" r="92" fill="#e8944d"/><path d="M650 277q-28-62 12-100" fill="none" stroke-linecap="round"/><path d="M740 470q-12-128 100-133 25 106-100 133Z" fill="#758c59"/><path d="M740 470q48-78 105-122" fill="none" stroke-linecap="round"/></g>
+</svg>

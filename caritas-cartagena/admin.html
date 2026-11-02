@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f6f3eb" />
+    <title>Editor local · Cáritas Cartagena</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="admin.css" />
+    <script type="module" src="src/admin.js"></script>
+  </head>
+  <body>
+    <header class="admin-header">
+      <a class="admin-brand" href="index.html"><img src="assets/brand/logo-caritas-oficial.svg" alt="Cáritas Arquidiócesis de Cartagena" /><span><strong>CÁRITAS</strong><small>EDITOR LOCAL DE CONTENIDO</small></span></a>
+      <div class="admin-actions"><a class="button button--quiet" href="index.html" target="_blank" rel="noopener noreferrer">Ver sitio ↗</a><button class="button button--quiet" type="button" data-export>Descargar copia</button><button class="button button--primary" type="button" data-save>Guardar cambios</button></div>
+    </header>
+    <main class="admin-main">
+      <div class="admin-heading"><div><p class="eyebrow">GESTIÓN DE CONTENIDO · CÁRITAS CARTAGENA</p><h1>Tu contenido,<br /><em>a tu manera.</em></h1><p class="lead">Edita textos, proyectos y el diseño visual del sitio desde un solo lugar.</p></div><div class="admin-heading__actions"><label class="button button--quiet upload-backup">Importar copia<input type="file" accept="application/json,.json" data-import hidden /></label><button class="button button--quiet" type="button" data-reset>Restaurar contenido inicial</button></div></div>
+      <aside class="local-notice" role="note"><strong>Editor protegido del sitio local.</strong> Los cambios se guardan en el servidor de este equipo y en este navegador para que la portada de este mismo navegador los muestre. Mantén abierta la ventana de <code>iniciar-sitio.bat</code> mientras trabajas.</aside>
+      <p class="save-status" aria-live="polite" data-status>Sin cambios guardados.</p>
+      <section class="editor-section" aria-labelledby="site-title"><div class="section-title"><span>01</span><div><h2 id="site-title">Portada y textos principales</h2><p>Los saltos de línea en títulos separan las líneas visuales.</p></div></div><div class="field-grid" data-site-fields></div></section>
+      <section class="editor-section" aria-labelledby="program-title"><div class="section-title"><span>02</span><div><h2 id="program-title">Programas <small data-program-count></small></h2><p>Agrega una ficha nueva cuando la organización confirme el contenido.</p></div><button type="button" class="button button--secondary" data-add-program>＋ Agregar programa</button></div><div class="items-list" data-program-fields></div></section>
+      <section class="editor-section appearance-editor" aria-labelledby="appearance-title">
+        <div class="section-title"><span>03</span><div><h2 id="appearance-title">Diseño y apariencia</h2><p>Personaliza cada zona por separado. Los cambios se reflejan en la vista previa y se publican al guardar.</p></div><button type="button" class="button button--quiet" data-reset-appearance>Restaurar estilos iniciales</button></div>
+        <div class="appearance-layout">
+          <div class="appearance-controls" data-appearance-controls></div>
+          <aside class="appearance-preview-panel" aria-label="Vista previa del sitio">
+            <div class="appearance-preview-head"><div><strong>Vista previa en vivo</strong><small data-preview-label>Escritorio</small></div><div class="preview-device-buttons"><button type="button" class="button button--quiet is-active" data-preview-device="desktop" aria-pressed="true">Escritorio</button><button type="button" class="button button--quiet" data-preview-device="mobile" aria-pressed="false">Móvil</button></div></div>
+            <div class="appearance-frame appearance-frame--desktop" data-preview-frame><iframe title="Vista previa del sitio público" src="index.html" data-theme-preview></iframe></div>
+            <p class="appearance-preview-note" data-preview-status role="status" aria-live="polite">Cargando vista previa del sitio…</p>
+          </aside>
+        </div>
+      </section>
+      <section class="editor-section" aria-labelledby="news-title"><div class="section-title"><span>04</span><div><h2 id="news-title">Actualidad</h2><p>Enlaces a publicaciones originales. Revisa fechas y destinos antes de publicar.</p></div><button type="button" class="button button--secondary" data-add-news>＋ Agregar noticia</button></div><div class="items-list" data-news-fields></div></section>
+      <div class="admin-bottom"><p>Consejo: usa imágenes propias aprobadas. Las imágenes subidas en este editor se reducen para que la copia local no crezca demasiado.</p><button class="button button--primary" type="button" data-save>Guardar cambios</button></div>
+    </main>
+  </body>
+</html>
+
+

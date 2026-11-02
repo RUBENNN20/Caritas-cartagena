@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="Ilustración de acompañamiento y esperanza">
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#f3dfc7"/><stop offset="1" stop-color="#e3e9dc"/></linearGradient></defs>
+  <rect width="1200" height="760" fill="url(#bg)"/><circle cx="940" cy="175" r="112" fill="#e8944d" opacity=".7"/><path d="M0 600q250-160 510-20t690-30v210H0Z" fill="#758c59" opacity=".64"/>
+  <g stroke="#633a27" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"><circle cx="440" cy="315" r="67" fill="#d49a69"/><path d="M345 620q8-215 95-215t95 215Z" fill="#e8944d"/><circle cx="710" cy="345" r="61" fill="#bd7750"/><path d="M625 620q8-190 85-190t85 190Z" fill="#758c59"/><path d="M505 465q80 95 145 7" fill="none"/></g>
+  <path d="M270 630h660" stroke="#633a27" stroke-width="15" stroke-linecap="round" opacity=".35"/>
+</svg>

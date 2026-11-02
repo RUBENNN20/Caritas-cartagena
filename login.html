@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Acceso administrativo · Cáritas Cartagena</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="admin.css" />
+    <script type="module" src="src/login.js"></script>
+  </head>
+  <body class="login-page">
+    <main class="login-card">
+      <a class="admin-brand" href="index.html"><span class="admin-brand__mark">✳</span><span><strong>CÁRITAS</strong><small>ACCESO ADMINISTRATIVO</small></span></a>
+      <h1 data-title>Crear cuenta administrativa</h1>
+      <p data-description>Crea el único usuario que podrá editar el contenido de este sitio en este equipo.</p>
+      <form data-auth-form novalidate>
+        <label class="field"><span>Usuario</span><input name="username" autocomplete="username" minlength="3" maxlength="64" required /></label>
+        <label class="field"><span>Contraseña</span><input name="password" type="password" autocomplete="new-password" minlength="12" maxlength="256" required /></label>
+        <label class="field" data-confirm-field><span>Confirma la contraseña</span><input name="confirmation" type="password" autocomplete="new-password" minlength="12" maxlength="256" required /></label>
+        <p class="save-status is-error" aria-live="polite" data-status></p>
+        <button class="button button--primary" type="submit" data-submit>Crear cuenta y entrar</button>
+      </form>
+      <p class="login-note">Usa una contraseña larga y única. El acceso funciona únicamente al iniciar el sitio mediante <code>iniciar-sitio.bat</code>.</p>
+    </main>
+  </body>
+</html>
